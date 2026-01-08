@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <title>Minha Landing Page</title>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -12,6 +16,46 @@
     <p>Aprendendo a criar e fazer deploy de uma página web</p>
     <button>Saiba mais</button>
   </header>
+
+
+  <!-- HEADER / HERO -->
+  <header id="home">
+    <h1>Minha Primeira Landing Page</h1>
+    <p>Aprendendo Frontend, Backend e Deploy Corporativo</p>
+    <button id="btnScroll">Saiba mais</button>
+  </header>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+    <h2>Sobre</h2>
+    <p>
+      Esta página foi criada como parte de um aprendizado prático
+      sobre desenvolvimento web e deploy profissional.
+    </p>
+  </section>
+
+  <!-- BENEFÍCIOS -->
+  <section id="beneficios">
+    <h2>Benefícios</h2>
+    <ul>
+      <li>✔ HTML, CSS e JavaScript puro</li>
+      <li>✔ Deploy automatizado</li>
+      <li>✔ Conceitos usados em grandes empresas</li>
+    </ul>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Seu nome" required />
+      <input type="email" placeholder="Seu email" required />
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
